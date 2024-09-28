@@ -1,33 +1,73 @@
 :root {
+  /* Original colors */
   --color-dark-blue: #212a42;
   --color-light-beige: #f5f3ed;
   --color-soft-orange: #fecb59;
   --color-muted-blue: #537c9b;
   --color-olive-green: #64733c;
 
-  /* You can also define semantic variables for common uses */
-  --color-primary: var(--color-dark-blue);
+  /* Night mode colors using original palette */
+  --color-background: #1a2133; /* Darker version of dark-blue */
+  --color-surface: #2c3754; /* Slightly lighter than background */
+  --color-primary: var(--color-soft-orange);
+  --color-primary-variant: #e6b84f; /* Slightly darker soft-orange */
   --color-secondary: var(--color-muted-blue);
-  --color-accent: var(--color-soft-orange);
-  --color-background: var(--color-light-beige);
-  --color-text: var(--color-dark-blue);
-  --color-text-light: var(--color-light-beige);
-  --color-button: var(--color-olive-green);
+  --color-accent: var(--color-olive-green);
+  --color-error: #cf6679; /* Keeping this from material design for visibility */
+  
+  /* Text colors */
+  --color-on-background: #e1e1e1;
+  --color-on-surface: #ffffff;
+  --color-on-primary: #000000;
+  --color-on-secondary: #ffffff;
+  --color-on-accent: #ffffff;
+  --color-on-error: #000000;
 }
 
-/* Apply some base styles using the theme colors */
 body {
   background-color: var(--color-background);
-  color: var(--color-text);
+  color: var(--color-on-background);
+}
+
+.card, .panel, .section {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
 }
 
 a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 button, .button {
-  background-color: var(--color-button);
-  color: var(--color-text-light);
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
 }
 
-/* You can add more base styles here */
+button:hover, .button:hover {
+  background-color: var(--color-primary-variant);
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.error {
+  color: var(--color-error);
+}
+
+/* Additional custom styles */
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+
+.secondary-bg {
+  background-color: var(--color-secondary);
+  color: var(--color-on-secondary);
+}
+
+.accent-bg {
+  background-color: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+/* You can add more specific styles here */

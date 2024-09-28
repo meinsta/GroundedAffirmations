@@ -1,7 +1,7 @@
 {
   "name": "grounded-affirmations",
   "version": "0.1.0",
-  "homepage": "https://meinsta.github.io/GroundedAffirmations",
+  "homepage": "http://arcanedata.us",
   "private": true,
   "dependencies": {
     "react-router-dom": "^6.26.2",

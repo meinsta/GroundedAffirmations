@@ -50,7 +50,6 @@ function TermsOfService() {
       <h2>9. Contact Us</h2>
       <p>If you have any questions about these Terms, please contact us at <a href="mailto:qalij.shamsipars@gmail.com">qalij.shamsipars@gmail.com</a>.</p>
 
-      <p>Last updated: [Date]</p>
     </div>
   );
 }
