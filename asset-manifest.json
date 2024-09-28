@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GroundedAffirmations/static/css/main.495f6efc.css",
+    "main.js": "/GroundedAffirmations/static/js/main.fce24b7c.js",
+    "index.html": "/GroundedAffirmations/index.html",
+    "main.495f6efc.css.map": "/GroundedAffirmations/static/css/main.495f6efc.css.map",
+    "main.fce24b7c.js.map": "/GroundedAffirmations/static/js/main.fce24b7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.495f6efc.css",
+    "static/js/main.fce24b7c.js"
+  ]
+}
