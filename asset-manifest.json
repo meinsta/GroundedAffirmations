@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/GroundedAffirmations/static/css/main.495f6efc.css",
-    "main.js": "/GroundedAffirmations/static/js/main.b140e35a.js",
-    "index.html": "/GroundedAffirmations/index.html",
-    "main.495f6efc.css.map": "/GroundedAffirmations/static/css/main.495f6efc.css.map",
-    "main.b140e35a.js.map": "/GroundedAffirmations/static/js/main.b140e35a.js.map"
+    "main.css": "/static/css/main.9b335c62.css",
+    "main.js": "/static/js/main.7805cbdc.js",
+    "static/media/logo.png": "/static/media/logo.0e1030380973c8fff28e.png",
+    "index.html": "/index.html",
+    "main.9b335c62.css.map": "/static/css/main.9b335c62.css.map",
+    "main.7805cbdc.js.map": "/static/js/main.7805cbdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.495f6efc.css",
-    "static/js/main.b140e35a.js"
+    "static/css/main.9b335c62.css",
+    "static/js/main.7805cbdc.js"
   ]
 }
