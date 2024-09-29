@@ -13,13 +13,10 @@ function TermsOfService() {
       <p>We reserve the right to modify or replace these Terms at any time. We will provide notice of any significant changes. Your continued use of the Service after such modifications constitutes your acceptance of the new Terms.</p>
 
       <h2>3. Access and Use of the Service</h2>
-      <h3>3.1. Age Restriction</h3>
-      <p>You must be at least 13 years old to use the Service.</p>
-
-      <h3>3.2. Account Registration</h3>
+      <h3>3.1. Account Registration</h3>
       <p>You may need to create an account to use some features of the Service. You are responsible for maintaining the confidentiality of your account information.</p>
 
-      <h3>3.3. Prohibited Activities</h3>
+      <h3>3.2. Prohibited Activities</h3>
       <p>You agree not to engage in any of the following:</p>
       <ul>
         <li>Violating any applicable laws or regulations</li>
@@ -36,16 +33,16 @@ function TermsOfService() {
       <p>By posting content, you grant Grounded Affirmations a non-exclusive, worldwide, royalty-free license to use, modify, publicly display, reproduce, and distribute such content on and through the Service.</p>
 
       <h2>5. Intellectual Property</h2>
-      <p>The Service and its original content, features, and functionality are owned by [Your Company Name] and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
+      <p>The Service and its original content, features, and functionality are owned by Arcane Data DBA and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
 
       <h2>6. Termination</h2>
       <p>We may terminate or suspend your account and access to the Service immediately, without prior notice or liability, for any reason, including breach of these Terms.</p>
 
       <h2>7. Limitation of Liability</h2>
-      <p>To the maximum extent permitted by law, [Your Company Name] shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Service.</p>
+      <p>To the maximum extent permitted by law, Arcane Data DBA shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Service.</p>
 
       <h2>8. Governing Law</h2>
-      <p>These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.</p>
+      <p>These Terms shall be governed by and construed in accordance with the laws of California, without regard to its conflict of law provisions.</p>
 
       <h2>9. Contact Us</h2>
       <p>If you have any questions about these Terms, please contact us at <a href="mailto:qalij.shamsipars@gmail.com">qalij.shamsipars@gmail.com</a>.</p>

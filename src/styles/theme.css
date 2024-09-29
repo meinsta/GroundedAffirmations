@@ -1,18 +1,19 @@
 :root {
   /* Original colors */
-  --color-dark-blue: #212a42;
+  --color-dark-blue: #252330; /* Updated as requested */
   --color-light-beige: #f5f3ed;
   --color-soft-orange: #fecb59;
   --color-muted-blue: #537c9b;
   --color-olive-green: #64733c;
+  --color-purple: #585ca6; /* New purple color */
 
   /* Night mode colors using original palette */
-  --color-background: #1a2133; /* Darker version of dark-blue */
-  --color-surface: #2c3754; /* Slightly lighter than background */
+  --color-background: #252330; /* Using the new dark blue */
+  --color-surface: #2f2d3d; /* Slightly lighter than background */
   --color-primary: var(--color-soft-orange);
   --color-primary-variant: #e6b84f; /* Slightly darker soft-orange */
   --color-secondary: var(--color-muted-blue);
-  --color-accent: var(--color-olive-green);
+  --color-accent: #212a42; /* Updated as requested */
   --color-error: #cf6679; /* Keeping this from material design for visibility */
   
   /* Text colors */
@@ -56,8 +57,16 @@ button:hover, .button:hover {
 }
 
 /* Additional custom styles */
-h1, h2, h3 {
+h1 {
   color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-muted-blue); /* Updated to use the new purple color */
+}
+
+h3 {
+  color: var(--color-purple);
 }
 
 .secondary-bg {
@@ -70,4 +79,6 @@ h1, h2, h3 {
   color: var(--color-on-accent);
 }
 
-/* You can add more specific styles here */
+.terms-of-service, .privacy-policy {
+  padding: 4rem;
+}

@@ -46,9 +46,6 @@ function HomePage() {
           <h2>Start Your Journey Today</h2>
           <Link to="/signup" className="cta-button">Sign Up Now</Link>
         </section>
-        <section>
-          <img src={logo} alt="Grounded Affirmations Logo" />
-        </section>
       </main>
       
       <footer>
