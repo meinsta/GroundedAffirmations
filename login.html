@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikTok Login</title>
+</head>
+<body>
+    <div id="tiktok-login-button"></div>
+
+    <script src="https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok-web-login-sdk/v2/tiktok-login-js-sdk-v2.js"></script>
+    <script>
+        const tiktokLogin = new window.TikTokLoginKit.LoginKit({
+            clientKey: '<%= process.env.TIKTOK_CLIENT_KEY %>',
+            redirectUrl: '<%= process.env.TIKTOK_REDIRECT_URL %>',
+            scope: 'video.upload,video.publish',
+            logLevel: 'debug'
+        });
+
+        tiktokLogin.addLoginButton({
+            container: 'tiktok-login-button'
+        });
+
+        tiktokLogin.on('login', (data) => {
+            console.log('TikTok login success', data);
+            // Send the authorization code to your server
+            fetch('/tiktok/callback?code=' + data.code)
+                .then(response => response.json())
+                .then(data => console.log('Server response:', data))
+                .catch(error => console.error('Error:', error));
+        });
+
+        tiktokLogin.on('error', (error) => {
+            console.error('TikTok login error', error);
+        });
+    </script>
+</body>
+</html>
