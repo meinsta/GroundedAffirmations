@@ -1,0 +1,23 @@
+@import 'theme.css';
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Example usage of theme colors */
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.footer {
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+}
+
+.cta-button {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+/* Add more global styles using the theme colors as needed */
