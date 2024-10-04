@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import SignUpPage from './components/SignUpPage';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Login from './components/Login';
 import './styles/App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </Router>
