@@ -1,0 +1,84 @@
+:root {
+  /* Original colors */
+  --color-dark-blue: #252330; /* Updated as requested */
+  --color-light-beige: #f5f3ed;
+  --color-soft-orange: #fecb59;
+  --color-muted-blue: #537c9b;
+  --color-olive-green: #64733c;
+  --color-purple: #585ca6; /* New purple color */
+
+  /* Night mode colors using original palette */
+  --color-background: #252330; /* Using the new dark blue */
+  --color-surface: #2f2d3d; /* Slightly lighter than background */
+  --color-primary: var(--color-soft-orange);
+  --color-primary-variant: #e6b84f; /* Slightly darker soft-orange */
+  --color-secondary: var(--color-muted-blue);
+  --color-accent: #212a42; /* Updated as requested */
+  --color-error: #cf6679; /* Keeping this from material design for visibility */
+  
+  /* Text colors */
+  --color-on-background: #e1e1e1;
+  --color-on-surface: #ffffff;
+  --color-on-primary: #000000;
+  --color-on-secondary: #ffffff;
+  --color-on-accent: #ffffff;
+  --color-on-error: #000000;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+.card, .panel, .section {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+button, .button {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+button:hover, .button:hover {
+  background-color: var(--color-primary-variant);
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.error {
+  color: var(--color-error);
+}
+
+/* Additional custom styles */
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-muted-blue); /* Updated to use the new purple color */
+}
+
+h3 {
+  color: var(--color-purple);
+}
+
+.secondary-bg {
+  background-color: var(--color-secondary);
+  color: var(--color-on-secondary);
+}
+
+.accent-bg {
+  background-color: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.terms-of-service, .privacy-policy {
+  padding: 4rem;
+}
