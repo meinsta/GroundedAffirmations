@@ -8,7 +8,7 @@ const Login = () => {
   const [csrfToken, setCsrfToken] = useState('');
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_API_URL}/api/tiktok/auth`)
+    axios.get(`${process.env.REACT_APP_API_URL}/auth/tiktok`)
       .then(response => {
         console.log('Auth response:', response.data);
         if (response.data && response.data.url) {
