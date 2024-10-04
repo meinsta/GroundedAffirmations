@@ -46,7 +46,7 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'Server is running' });
 });
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5002;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 const path = require('path');
