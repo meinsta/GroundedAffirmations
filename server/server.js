@@ -9,7 +9,7 @@ const tiktokRoutes = require('../src/routes/tiktokRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'https://arcanedata.us'
+  origin: 'https://arcanedata.us', 'http://localhost:5001', 'https://api.arcanedata.us'
 }));
 app.use(express.json());
 
